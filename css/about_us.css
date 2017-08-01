@@ -1,0 +1,88 @@
+.about{
+	float:left;
+	height:auto;
+	width:100%;
+	border-top:1px solid  black;
+	margin:40px 0px;
+	//padding:10px 0px;
+}
+.heading{
+	
+	display:block;
+	font: 35px "dobra medium";
+	margin: 5px 100px 0px 100px;
+	width:auto;
+	float:left;
+	text-align:center;
+	//border:1px solid #515151;
+	position:relative;
+	top:-30px;
+	background-color:white;
+	padding:0px 15px;
+	
+}
+
+main>.about:nth-of-type(even) .heading{
+	
+	float:right;
+	//text-align:right;
+}
+.img{
+	//float:left;
+	height:inherit;
+	width:auto;
+	margin:0px auto;
+	
+}
+
+
+.border{
+	padding:10px ;
+	overflow:hidden;
+	border:1px dashed black;
+	float:right;
+	width:auto;
+	margin:20px 10px;
+	height:180px;
+	
+}
+
+.about p{
+	//width:70%;
+	margin:10px ;
+	float:left;
+}
+
+main>.about:nth-of-type(1) p{
+	width:80%;
+	//float:none;
+	//margin:5px;
+}
+main>.about:nth-of-type(3) p{
+	width:70%;
+	//float:none;
+	//margin:5px;
+}
+main>.about:nth-of-type(4) p{
+	width:60%;
+	//float:none;
+	//margin:5px;
+}
+main>.about:nth-of-type(2) p{
+	width:70%;
+	//float:none;
+	//margin:5px;
+}
+main>.about:nth-of-type(5) p{
+	width:65%;
+	//float:none;
+	//margin:5px;
+}
+.about li>a{
+	text-decoration:none;
+	color:black;
+}
+.about ul{
+	float:left;
+	margin:20px 40px;
+}

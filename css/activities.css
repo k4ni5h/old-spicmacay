@@ -1,0 +1,39 @@
+main img{
+	padding:10px;
+	float:right;
+	height:300px;
+	width:auto;
+	margin:5px 0px 0px 10px;
+	border:1px dashed black;
+	
+}
+p{
+	margin:15px 0px;
+	
+}
+	
+.heading{
+	
+	display:block;
+	font: 35px "dobra medium";
+	margin: 100px 100px 20px 10px;
+	width:auto;
+	//float:left;
+	//text-align:center;
+	border-bottom:1px solid #515151;
+	position:relative;
+	top:-30px;
+	background-color:white;
+	padding:0px 30px;
+	z-index: -1;
+	
+}
+ul{
+	margin:10px 30px;
+	
+	
+}
+ul li>a{
+	text-decoration:none;
+	color:black;
+}

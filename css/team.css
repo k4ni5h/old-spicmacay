@@ -1,0 +1,69 @@
+#building{
+	
+	float:right;
+	height:300px;
+	width:auto;
+	margin:5px 0px 0px 10px;
+	border:1px solid black;
+	
+}
+p{
+	margin:15px 5px;
+	
+}
+#faculty{
+	height:auto;
+	width:100%;
+	float:left;
+	margin:50px 0px;
+	border-top:1px solid black;
+}
+#students{
+	height:auto;
+	width:100%;
+	margin-top:30px;
+	float:left;
+	border-top:1px solid black;
+	
+}
+.info{
+	white-space:pre-line;
+	float:left;
+}
+.entry{
+	width:46%;
+	height:auto;
+	float:left;
+	margin:10px 20px;
+	min-width:200px;
+}
+.foto{
+	float:right;
+	border:1px solid black;
+}
+.name{
+	float:left;
+	font-size:30px;
+	font-weight:700;
+	
+}
+.names{
+	float:left;
+	margin:5px 5px;
+	width:200px;
+	height:30px;
+	text-align:center;
+	
+}
+
+.heading{
+	font-size:30px;
+	text-align:center;
+	position:relative;
+	font-weight:bold;
+	top:-23px;
+	width:250px;
+	margin:0 auto;
+	background-color:white;
+	
+}
